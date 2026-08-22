@@ -1,0 +1,14 @@
+# Initialize Git (if not already done)
+git init
+
+# Add all files to the staging area
+git add .
+
+# Commit the changes with a message
+git commit -m "Your commit message"
+
+# Link your local repo to GitHub (replace with your repo URL)
+git remote add origin https://github.com/yourusername/repo-name.git
+
+# Push to GitHub (sets upstream tracking for future pushes)
+git push -u origin main   
